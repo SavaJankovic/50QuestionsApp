@@ -1,0 +1,126 @@
+body {
+  background-color: #f5f5f5;
+}
+
+#start {
+  width: 600px;
+  height: 550px;
+  margin: 0 auto;
+  background-color: #FFFFFF;
+  padding: 10px 50px 50px 50px;
+  border-radius: 10px;
+  border: 5px solid #16222a;
+  box-shadow: 5px 10px 5px #3a6073;
+  display: block;
+}
+
+#start h1 {
+  font-family: "sans-serif";
+  background: -webkit-linear-gradient(to right, #16222a, #3a6073);
+  background: linear-gradient(to right, #16222a, #3a6073);
+  font-size: 60px;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 2px 0px;
+  border-radius: 10px;
+  border: 3px solid #212121;
+}
+
+#klik {
+  width: 200px;
+  height: 80px;
+  margin-top: 10px;
+  margin-left: 200px;
+  font-size: 30px;
+  font-family: "sans-serif";
+  background: -webkit-linear-gradient(to right, #16222a, #3a6073);
+  background: linear-gradient(to right, #16222a, #3a6073);
+  border-radius: 10px;
+  font-size: 40px;
+  text-align: center;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+#ins p {
+  font-size: 18px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#mark {
+  margin-top: 40px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#grid {
+  width: 600px;
+  height: 550px;
+  margin: 0 auto;
+  background-color: #FFFFFF;
+  padding: 10px 50px 50px 50px;
+  border-radius: 10px;
+  border: 5px solid #16222a;
+  box-shadow: 5px 10px 5px #3a6073;
+  display: none;
+}
+
+#grid h1 {
+  font-family: "sans-serif";
+  background: -webkit-linear-gradient(to right, #16222a, #3a6073);
+  background: linear-gradient(to right, #16222a, #3a6073);
+  font-size: 60px;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 2px 0px;
+  border-radius: 10px;
+  border: 3px solid #212121;
+}
+
+#score {
+  color: #212121;
+  text-align: center;
+  font-size: 30px;
+}
+
+#grid #question {
+  font-family: "monospace";
+  font-size: 22px;
+  color: #212121;
+}
+
+#time {
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 40px;
+}
+
+.buttons {
+  margin-top: 30px;
+}
+
+#btn0, #btn1, #btn2, #btn3 {
+  background: -webkit-linear-gradient(to right, #16222a, #3a6073);
+  background: linear-gradient(to right, #16222a, #3a6073);
+  width: 250px;
+  font-size: 20px;
+  color: #FFFFFF;
+  border: 3px solid #212121;
+  border-radius: 10px;
+  margin: 10px 40px 10px 0px;
+  padding: 10px 10px;
+}
+
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
+  cursor: pointer;
+  background: #FFFFFF;
+  color: #212121;
+}
+
+#btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus {
+  outline: 0;
+}
+
+#progress {
+  color: #212121;
+  font-size: 18px;
+}
