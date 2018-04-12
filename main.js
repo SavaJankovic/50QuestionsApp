@@ -1,13 +1,14 @@
 function populate() {
+
   if (kviz.isEnded()) {
     showScores();
   } else {
     // show question
     var element = document.getElementById("question");
     element.innerHTML = kviz.getQuestionIndex().text;
-
     // show options
     var choices = kviz.getQuestionIndex().choices;
+    
     for (var i = 0; i < choices.length; i++) {
       var element = document.getElementById("choice" + i);
       element.innerHTML = choices[i];
@@ -17,6 +18,7 @@ function populate() {
     showProgress();
   };
 };
+
 
 function start() {
 
