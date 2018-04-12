@@ -1,4 +1,4 @@
-# 50QuestionApp
+# 50-Question-App
 
 - This is a simple test that consists of 50 questions. 
 - You have four offered answers, only one answer is true.
